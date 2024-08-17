@@ -9,6 +9,9 @@ module.exports = {
       roboto: ["Roboto", "sans-serif"],
       bebasNneue: ["Bebas Neue", "sans-serif"],
     },
+    colors: {
+      "penguin-100": "#FFFBF0",
+    },
   },
   plugins: [],
 };
