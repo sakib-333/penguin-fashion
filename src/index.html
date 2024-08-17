@@ -16,15 +16,44 @@
   </head>
   <body>
     <div class="container max-w-screen-xl mx-auto">
-      <header class="bg-penguin-100 flex items-center justify-between p-4">
-        <img class="w-64 md:w-72 lg:w-80" src="./assets/logo.png" alt="logo" />
-        <div class="hidden sm:inline sm:space-x-4 md:space-x-5 lg:space-x-6">
-          <a class="font-bold hover:opacity-50" href="#">Home</a>
-          <a class="font-bold hover:opacity-50" href="#">Product</a>
-          <a class="font-bold hover:opacity-50" href="#">About Us</a>
-          <a class="font-bold hover:opacity-50" href="#">Contract Us</a>
+      <header class="bg-penguin-100">
+        <nav class="flex items-center justify-between p-4">
+          <img
+            class="w-64 md:w-72 lg:w-80 hover:grayscale"
+            src="./assets/logo.png"
+            alt="logo"
+          />
+          <div class="hidden md:inline md:space-x-5 lg:space-x-6">
+            <a class="font-bold hover:opacity-50" href="#">Home</a>
+            <a class="font-bold hover:opacity-50" href="#">Product</a>
+            <a class="font-bold hover:opacity-50" href="#">About Us</a>
+            <a class="font-bold hover:opacity-50" href="#">Contract Us</a>
+          </div>
+          <i class="fa-solid fa-bars fa-xl md:hidden"></i>
+        </nav>
+        <div class="banner mt-4 p-4 md:flex md:justify-between">
+          <div class="banner-text md:max-w-96 flex flex-col justify-center">
+            <h1 class="text-7xl font-bebasNneue font-medium">
+              <span class="text-t1">Be the Penguins</span><br />
+              <span class="text-t2">of Winter</span>
+            </h1>
+            <p class="text-t3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div>
+              <button
+                class="bg-gradient-to-r from-penguin-200 to-penguin-300 px-4 py-2 rounded-lg mt-3 font-medium text-t4"
+              >
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+                BUY NOW
+              </button>
+            </div>
+          </div>
+          <div class="banner-image mt-5 sm:mt-0">
+            <img class="w-full" src="./assets/model.png" alt="model-girl" />
+          </div>
         </div>
-        <i class="fa-solid fa-bars fa-xl sm:hidden"></i>
       </header>
       <main></main>
       <footer></footer>
